@@ -5,83 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arnav Dikshit | AI & Consulting</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="container">
+  <nav>
+    <div class="nav-container">
       <h1>Arnav Dikshit</h1>
-      <p>AI & ML Enthusiast | Tech Consultant</p>
-      <div class="contacts">
-        <a href="mailto:arnavdixit07@gmail.com">📧 arnavdixit07@gmail.com</a>
-        <a href="tel:+919315274704">📞 +91 9315274704</a>
-        <a href="https://linkedin.com/in/arnav-dikshit-56ba70211/" target="_blank">🔗 LinkedIn</a>
-        <a href="https://github.com/arnavdixit07" target="_blank">💻 GitHub</a>
-      </div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h2>AI Developer | Consultant | Tech Enthusiast</h2>
+      <p>Turning ideas into intelligent solutions and data into strategy.</p>
+      <a href="#contact" class="cta-button">Let’s Connect</a>
     </div>
   </header>
 
-  <main class="container">
-    <section id="about">
+  <main>
+    <section id="about" class="section">
       <h2>About Me</h2>
-      <p>
-        Driven BTech student in AI & ML at Manipal University Jaipur. I specialize in building intelligent systems and solving complex problems with machine learning, data analysis, and creative thinking. I'm also deeply passionate about consulting, team leadership, and driving data-informed solutions.
-      </p>
+      <p>I am a BTech student from Manipal University Jaipur, majoring in Artificial Intelligence & Machine Learning. My passion lies in building intelligent solutions and leveraging AI for strategic consulting. I enjoy leading teams and tackling complex problems with data-driven insights.</p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="section dark">
       <h2>Projects</h2>
-      <div class="card">
-        <h3>Investment Value Predictor AI Bot</h3>
-        <p>AI-powered assistant using Bloomz 7B1 + FastAPI to estimate ROI on historical stock investments.</p>
-      </div>
-      <div class="card">
-        <h3>ELI5 (Explain Like I'm 5)</h3>
-        <p>Uses Mistral 7B to simplify technical concepts assuming the reader is 5 years old.</p>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Investment Value Predictor</h3>
+          <p>Predict your historical investment growth using Bloomz 7B1 + FastAPI. Built for insight-driven motivation.</p>
+        </div>
+        <div class="card">
+          <h3>ELI5 AI</h3>
+          <p>Explain Like I'm 5 - A chatbot that simplifies any concept using HuggingFace's Mistral 7B model.</p>
+        </div>
       </div>
     </section>
 
-    <section id="experience">
+    <section id="experience" class="section">
       <h2>Experience</h2>
-      <div class="card">
-        <h3>President, 180DC MUJ</h3>
-        <p>Overseeing strategy and operations of Manipal's leading student-run consulting group.</p>
-      </div>
-      <div class="card">
-        <h3>Intern @ CRIS (Centre for Railway Information Systems)</h3>
-        <p>AI team member working on projects for Indian Railways' tech backbone.</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>President, 180DC MUJ</h3>
+          <p>Leading Manipal’s consulting wing. Previously headed Client Acquisition & Outreach.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Intern @ CRIS (Indian Railways)</h3>
+          <p>Part of the AI division building tech solutions for national railway systems.</p>
+        </div>
       </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="section dark">
       <h2>Skills</h2>
-      <ul>
-        <li>Languages: Python, C/C++</li>
-        <li>AI: Scikit-learn, TensorFlow, HuggingFace, LLAMA, GPT</li>
-        <li>Web: HTML, CSS, JS, React</li>
-        <li>Apps: Swift, Flutter</li>
-        <li>Consulting: Business Analytics, Strategic Frameworks</li>
+      <ul class="skills-list">
+        <li>Python, C/C++</li>
+        <li>Scikit-learn, TensorFlow, LLAMA</li>
+        <li>HuggingFace, GPT Models</li>
+        <li>HTML, CSS, JS, React</li>
+        <li>Swift, Flutter</li>
+        <li>Tech & Strategic Consulting</li>
       </ul>
     </section>
 
-    <section id="education">
-      <h2>Education</h2>
-      <p><strong>Manipal University Jaipur</strong> – BTech CSE (AI & ML), 2023–2027 | CGPA: 8.1</p>
-      <p><strong>Indirapuram Public School</strong> – Class 12th: 81%, Class 10th: 90%</p>
-    </section>
-
-    <section id="certificates">
-      <h2>Certificates</h2>
-      <ul>
-        <li>RedHat OS Course</li>
-        <li>Oracle Database Foundations</li>
-        <li>Microsoft Azure Cloud</li>
-        <li>BCG Strategic Consulting Simulation</li>
-      </ul>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p><a href="mailto:arnavdixit07@gmail.com">arnavdixit07@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Phone</h3>
+          <p><a href="tel:+919315274704">+91 93152 74704</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>LinkedIn</h3>
+          <p><a href="https://linkedin.com/in/arnav-dikshit-56ba70211" target="_blank">Profile</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>GitHub</h3>
+          <p><a href="https://github.com/arnavdixit07" target="_blank">@arnavdixit07</a></p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Arnav Dikshit | Built with ❤️ using HTML, CSS, JS</p>
+    <p>© 2025 Arnav Dikshit | Crafted with purpose and AI passion.</p>
   </footer>
 
   <script src="script.js"></script>
